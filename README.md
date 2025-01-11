@@ -71,16 +71,23 @@ Copy the URLs below, one by one, and paste them into the Address field, then cli
 Recommended Blocklists:
 
    AdGuard DNS Blocklist
+
    https://v.firebog.net/hosts/AdguardDNS.txt
+
    This extensive blocklist targets ads and trackers, maintained by AdGuard. It blocks a wide variety of domains, providing effective ad-blocking across websites and apps.
 
    StevenBlack's KADhosts List
+
    https://raw.githubusercontent.com/StevenBlack/hosts/master/data/KADhosts/hosts
+
    This list is part of the unified hosts project by StevenBlack. It focuses on blocking domains related to advertising and trackers.
 
    StevenBlack's Spam Blocklist
+
    https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts
+
    Designed to block known spam and phishing domains, this list protects you from malicious websites and email-related threats.
+
    4. Update Gravity: After adding the blocklists, go to Tools > Gravity and click on Update. This will refresh Pi-hole’s database with the new blocklist entries, and it may take a few minutes to complete.
 
 **Step 6: Whitelist Script Installation**
