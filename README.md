@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
--A machine running Debian 12.
+-A machine running Debian 12
 
 -A static IP address for your machine.
 
