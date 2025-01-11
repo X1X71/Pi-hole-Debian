@@ -1,6 +1,6 @@
 # How to set up Pi-hole on Debian based systems for network-wide ad blocking
 
-[Pi-hole](https://pi-hole.net/) is a powerful network-wide ad blocker that works by acting as a DNS sinkhole, blocking unwanted content such as advertisements and trackers across all devices in your network. It's designed for low-power devices like the Raspberry Pi but can be installed on any Linux machine, including Debian 12. This guide will walk you through installing and configuring Pi-hole on a Debian 12 system.
+[Pi-hole](https://pi-hole.net/) is a powerful network-wide ad blocker that works by acting as a DNS sinkhole, blocking unwanted content such as advertisements and trackers across all devices in your network. It's designed for low-power devices like the Raspberry Pi but can be installed on most Linux machines. This guide will walk you through installing and configuring Pi-hole on a Debian 12 system.
 
 **Prerequisites**
 
