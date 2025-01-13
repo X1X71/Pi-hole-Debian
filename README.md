@@ -81,40 +81,7 @@ Recommended Blocklists:
 
    4. Update Gravity: After adding the blocklists, go to Tools > Gravity and click on Update. This will refresh Pi-hole’s database with the new blocklist entries, and it may take a few minutes to complete.
 
-**Step 6: Whitelist Script Installation**
-
-Sometimes, after adding multiple blocklists, you may find that certain websites or apps break due to blocked domains. In these cases, you can whitelist the domains causing issues. Pi-hole provides a script to automatically manage the whitelist.
-
-To install the script:
-
-   Download the Script: Run the following commands to download the Pi-hole whitelist script:
-
-```
-cd /opt/
-sudo git clone https://github.com/Soundium/Pi_hole_Whitelist.git
-sudo chmod +x /opt/Pi_hole_Whitelist/scripts/whitelist.sh
-```
-Schedule the Script: To run the whitelist script daily, edit the cron job file:
-
-```
-sudo nano /etc/crontab
-```
-Add this line to the end of the file to run the script at 1:00 AM every day:
-
-```
-0 1 * * *   root    /opt/Pi_hole_Whitelist/scripts/whitelist.sh
-```
-Save the file and exit.
-
-Run the Script Manually (First Run): You can run the script manually the first time to begin the process of whitelisting:
-
-```
-sudo /opt/Pi_hole_Whitelist/scripts/whitelist.sh
-```
-   The process may take some time, and you might see a "Database is Locked" warning which can be ignored. This process will add over 2 million domains to your Pi-hole’s blocklist.
-
-
-**Step 7: Troubleshooting**
+**Step 6: Troubleshooting**
 
 If you encounter issues with blocked websites or apps, you can:
 
